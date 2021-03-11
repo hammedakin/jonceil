@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 .html{
-  width: 100%;
+  width: 100%;  
 }
 
 body {
@@ -15,20 +15,20 @@ body {
 
 /* Global */
 
-col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto {
-  position: relative;
+.home .col-1, .home .col-2, .home .col-3, .home .col-4, .home .col-5, .home .col-6, .home .col-7, .home .col-8, .home .col-9, .home .col-10, .home .col-11, .home .col-12, .home .col, .home .col-auto, .home .col-sm-1, .home .col-sm-2, .home .col-sm-3, .home .col-sm-4, .home .col-sm-5, .home .col-sm-6, .home .col-sm-7, .home .col-sm-8, .home .col-sm-9, .home .col-sm-10, .home .col-sm-11, .home .col-sm-12, .home .col-sm, .home .col-sm-auto, .home .col-md-1, .home .col-md-2, .home .col-md-3, .home .col-md-4, .home .col-md-5, .home .col-md-6, .home .col-md-7, .home .col-md-8, .home .col-md-9, .home .col-md-10, .home .col-md-11, .home .col-md-12, .home .col-md, .home .col-md-auto, .home .col-lg-1, .home .col-lg-2, .home .col-lg-3, .home .col-lg-4, .home .col-lg-5, .home .col-lg-6, .home .col-lg-7, .home .col-lg-8, .home .col-lg-9, .home .col-lg-10, .home .col-lg-11, .home .col-lg-12, .home .col-lg, .home .col-lg-auto, .home .col-xl-1, .home .col-xl-2, .home .col-xl-3, .home .col-xl-4, .home .col-xl-5, .home .col-xl-6, .home .col-xl-7, .home .col-xl-8, .home .col-xl-9, .home .col-xl-10, .home .col-xl-11, .home .col-xl-12, .home .col-xl, .home .col-xl-auto {
+  /* position: relative; */
   width: 100%;
   padding-right: 0px!important;
   padding-left: 0px!important;
 }
-
+ 
 
 /* Global */
 
 /* Navbar */
-nav {
-  background-color: #C4C4C4;
-  height: 5rem!important;
+.navbar {
+  background-color: #c4c4c4 !important;
+  padding: 1rem!important;
 
 }
 
@@ -40,19 +40,41 @@ nav a.nav-link{
  font-weight: 600!important;
 
 }
+
+nav li a {
+  margin: 0 1rem !important;
+}
+
+.active1 {
+  border-bottom: #5c665c 3px solid !important;
+  color: #000 !important;
+  font-weight: 600 !important;  
+}
+
+.navbar button.navbar-toggler {
+  background-color: none!important;
+
+  }
+  
+.navbar-toggler-icon {
+  background: none !important;
+  
+}
+
+nav .nav-item a {
+  color: #000 !important;
+  font-weight: 600;
+}
+
+nav .nav-item a:hover, nav .nav-item a:active, nav .nav-link:hover, nav .nav-link:active {
+  border-bottom: #5c665c 3px solid!important;
+color: #000 !important;
+font-weight: 600;
+}
+
 /* Navbar */
 
 /* Showcase */
-/* .showcase {
-  margin: 0;
- padding: 0;
-
- background-size: cover;
- width: 100vw;
-
- position: relative;
- overflow-y: hidden;
-} */
 
 
 .showcase .aa  {
@@ -69,3 +91,167 @@ height: 100%;
 }
 /* Showcase */
 
+/* Model */
+.model h5{
+  margin-top: 5vh!important;
+  }
+
+
+.model h5{
+font-weight: 600;
+}
+
+
+.aaa {
+  display: flex;
+}
+
+.showcase .bb  {
+  font-family: 'Josefin Sans', sans-serif!important;
+  align-items: center!important;
+  padding-top: 10%;
+}
+
+
+
+
+/* Model */
+
+/* Contact */
+.contactinfo .card {
+  background-color: #bfcab9;
+}
+/* Contact */
+
+/* Product */
+.productpage {
+  background-color: #828f82;
+
+  }
+.allproduct .card{
+  background-color: transparent;
+  }
+
+
+  .allproduct .card:hover{
+    background-color: #5c665c;
+    }
+    .allproduct .card:active {
+      background-color: #5c665c !important;
+      }
+
+  .allproduct img {
+    margin-left: auto!important;
+    margin-right: auto!important;
+    border-radius: 10%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+   }
+
+.allproduct .card-footer {
+background-color: transparent;
+}
+
+.product {
+background-color: #828f82 !important;
+padding: 4rem 0;
+}
+
+.product img {
+  margin-left: auto!important;
+  margin-right: auto!important;
+  border-radius: 10%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+ }
+
+ .product button{
+   padding: 1.2rem 1rem !important;
+   border: #470808 solid 3px;
+ }
+/* Product */
+
+/* Footer */
+.footer .service {
+  background-color: #80705c;
+}
+
+footer {
+  background-color: #d3c7b9;
+  line-height: 2  !important;
+}
+footer ul li a{
+  color: black !important;
+
+}
+
+footer .subscribe input {
+background-color: transparent;
+border: 2px solid black;
+border-radius: 0;
+height: 3rem!important;
+}
+
+
+footer .subscribe .btn {
+  background-color: black !important;
+  color: #f5f3f3;
+  height: 3rem!important;
+  text-align: center !important;
+  }
+/* Footer */
+
+
+
+/* Media Query for mobile Screen */
+
+@media screen and (max-width: 580px) {
+
+/* Showcase */
+.showcase .aa h5, .showcase .bb h5 {
+font-size: 12px !important;
+}
+.showcase .aa .h4, .showcase .bb .h4 {
+  font-size: 15px !important;
+  }
+
+  .showcase .bb  {
+    padding-top: 0;
+  }
+  .showcase .bb hr {
+    padding-top: 0;
+  }
+
+/* Showcase */
+
+/* Model */
+.model h5{
+  margin-top: 0rem!important;
+  }
+
+  .showcase .bb hr  {
+    margin-top: 0.5rem !important;
+    }
+/* Model */
+
+
+  /* Product */
+  .product img {
+    width:100% !important;
+   }
+  
+  /* Product */
+  
+
+/* Footer  */
+footer .subscribe input {
+  border: 1px solid black;
+  
+  }
+
+
+/* Footer  */
+
+
+}
+/* Media Query for mobile Screen */

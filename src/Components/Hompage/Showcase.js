@@ -21,7 +21,7 @@ const Showcase = () => {
         <div class="col-sm-4 col-4">
           <img src={img1} alt="" width="100%" />
           <img src={img4} alt="" width="100%" />
-        </div>
+        </div> 
 
         <div class="col-sm-3 col-3">
           <img src={img2} alt="" width="100%" />
@@ -30,6 +30,9 @@ const Showcase = () => {
         </div>
         
       </section>
+
+
+      
     </>
   );
 };
